@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Its my personal data">
+    <title>✽VAISOLA✽</title>
+  </head>
+  <body>
+    <center><h1>VAISOLA</h1></center>
+    <p>I am currently learning<strong><em> web development</em></strong> course.So far its good.This is my first code in<b> HTML</b>.I am very much hoping to finish this course successfully.</p>
+    <hr noshade color="green" size="4" width="100%">
+    <h3>Courses that I have undertook so far:</h3>
+    <ol type="I" start="1">
+      <li><i><b>completed courses:</b></i>
+      <ul type="disc">
+        <li><a href="https://www.mybluprint.com/article/13-acrylic-painting-techniques-all-beginners-should-try"> Acrylic painting</a></li>
+        <li> Crochetting</li>
+        <li> Yoga</li>
+        <li> Fabric painting</li>
+        <li> Baking</li>
+        <li> North Indian style cooking</li>
+        <li> Table styling</li>
+        <li> Terracotta jwellery making</li>
+        </ul>
+        </li>
+      <li><i><b>Incomplete courses:</b></i>
+        <ul type="circle">
+          <li> Pottery</li>
+          <li> Zumba</li>
+          <li> Tailoring</li>
+          </ul>
+          </li>
+          </ol>
+
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Its my personal data">
+  <title>✽VAISOLA✽</title>
+</head>
+
+<body>
+  <center><img src="C:\Users\krivi\Desktop\HTML CODE LEARNING\images.jpg" alt="Picture of a squirrel" title="squeeky"></center>
+  <center>
+    <h1>VAISOLA</h1>
+  </center>
+  <p>I am currently learning<strong><em> web development</em></strong> course.So far its good.This is my first code in<b><abbr title="Hyper Text Markup Language"> HTML</abbr></b>.I am very much hoping to finish this course successfully.</p>
+  <hr noshade color="PURPLE" size="2" width="100%">
+  <a href="courses.html" target="_blank">Courses that I have undertook so far</a><br>
+  <a href="contact us.html" target="_blank">Contact us</a><br>
+  <a href="Skilllevel and Likings.html" target="_top">My skill level and my likings for the courses I've learnt so far</a>
+  <hr noshade color="PURPLE" size="2" width="100%">
+  <p><em><b>Help us to know something about you</b></em></p>
+  <form action="mailto:vaisola@gmail.com" method="post" enctype="text/plain">
+    <fieldset>
+      <legend> Your persona</legend>
+
+      <em><b>Your name:</em></b>
+      <input type="text" name="First name" placeholder="First name">
+      <input type="text" name="Last name" placeholder="Last name"><br>
+      <em><b>Contact number:</em></b>
+      <input type="number" name="contact number"><br>
+      <em><b>Birth date:</em></b>
+      Month:<select name="month">
+
+        <option value="Jan" selected>Jan</option>
+        <option value="Feb">Feb</option>
+        <option value="Mar">Mar</option>
+        <option value="Apr">Apr</option>
+        <option value="May">May</option>
+        <option value="Jun">Jun</option>
+        <option value="Jul">Jul</option>
+        <option value="Aug">Aug</option>
+        <option value="Sep">Sep</option>
+        <option value="Oct">Oct</option>
+        <option value="Nov">Nov</option>
+        <option value="Dec">Dec</option>
+
+      </select>
+      Day:<input list="day" placeholder="day">
+      <datalist id="day">
+        <option value="Mon">Mon</option>
+        <option value="Tue">Tue</option>
+        <option value="Wed">Wed</option>
+        <option value="Thur">Thur</option>
+        <option value="Fri">Fri</option>
+        <option value="Sat">Sat</option>
+        <option value="Sun">Sun</option>
+      </datalist>
+      Date:<input type="number" min="1" max="31"><br>
+      <em><b>E-mail:</em></b> <input type="email" name="email" placeholder="abc123@smail.com">
+      <p> Is any of your interest is same as mine?</p>
+      Yes:<input type="radio" name="user interests" value="yes">
+      No: <input type="radio" name="user interests" value="no" checked><br>
+      <em><b>Gender:</em></b><br><label>Male<input type="radio" name="gender" value="male" checked></label>
+      <label>Female<input type="radio" name="gender" value="male"></label>
+      <label>Others<input type="radio" name="gender" value="others"></label>
+    </fieldset>
+    <p>Below are the list of interests of mine,click it if we share the same</p>
+    <select name=" same interests" size="12" multiple>
+      <optgroup label="Art">
+        <option value="mandala art" selected>mandala art</option>
+        <option value="string art">string art</option>
+        <option value="pottery">pottery</option>
+        <option value="sculpting">sculpting</option>
+        <option value="knife painting">knife painting</option>
+        <option value="acrylic painting">acrylic painting</option>
+        <option value="oil painting">oil painting</option>
+        <option value="murals">murals</option>
+      </optgroup>
+      <optgroup label="Others">
+        <option value="web designing">web designing</option>
+        <option value="cooking differently">cooking differently</option>
+      </optgroup>
+    </select>
+    <strong>
+      <p>Hold down the Ctrl (windows) / Command (Mac) button to select multiple options.</p>
+    </strong>
+    Write something about you:<br>
+    <textarea name="about user" rows="8" cols="80">An open soul can learn as much as it wants,it neither needs any senses nor the power of the mind.  ~Vaisola
+    </textarea><br>
+    <button type="button" onclick="alert('Hi,I am Vaisola. Welcome to my website.')'">clicity click</button>
+    <button type="button" onclick="alert('Hello world!')">Click Me!</button><br>
+    <input type="submit" name="submit">
+  </form>
+</body>
+
+</html>
